@@ -1,3 +1,9 @@
+"""O nível de complexidade desse código é O(n), onde n é o número de
+elementos em "permanence_period". Isso ocorre porque o laço "for" itera
+sobre todos os elementos em "permanence_period", o que leva a uma quantidade
+de operações proporcional ao número de elementos."""
+
+
 def study_schedule(permanence_period, target_time):
     count = 0
 
